@@ -4,8 +4,8 @@ Minimalistic Java EE Dockerfiles
 
 ## Usage
 
-exec: docker build -t cmueller/camel .
-exec: docker run -d --name camel -p 8080:8080 cmueller/camel
+exec: docker build -t cmueller/ping .
+exec: docker run -d --name ping -p 8080:8080 cmueller/ping
 
 ## Test
 
